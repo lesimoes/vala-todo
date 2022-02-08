@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schemalist>
+    <schema path="/com/github/lesimoes/valahello/" id="com.github.lesimoes.valahello">
+        <key name="pos-x" type="i">
+            <default>360</default>
+            <summary>Horizontal position</summary>
+            <description>This save horizontal position</description>
+        </key>
+
+        <key name="pos-y" type="i">
+            <default>360</default>
+            <summary>Vertical position</summary>
+            <description>This save vertical position</description>
+        </key>
+
+        <key name="window-width" type="i">
+            <default>600</default>
+            <summary>Window width</summary>
+            <description>This save window width</description>
+        </key>
+
+        <key name="window-height" type="i">
+            <default>400</default>
+            <summary>Window height</summary>
+            <description>This save window height</description>
+        </key>
+    </schema>
+</schemalist>

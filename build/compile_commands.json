@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/home/lesimoes/Work/personal/lab/vala/build",
+    "command": "valac -C --debug --debug --pkg gtk+-3.0 --color=always --directory src/com.github.lesimoes.valahello.p --basedir ../src ../src/Main.vala ../src/Widgets/Window.vala ../src/Widgets/HeaderBar.vala ../src/Application.vala",
+    "file": "../src/Main.vala",
+    "output": "src/com.github.lesimoes.valahello.p/Main.c"
+  },
+  {
+    "directory": "/home/lesimoes/Work/personal/lab/vala/build",
+    "command": "cc -Isrc/com.github.lesimoes.valahello.p -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/com.github.lesimoes.valahello.p/meson-generated_Main.c.o -MF src/com.github.lesimoes.valahello.p/meson-generated_Main.c.o.d -o src/com.github.lesimoes.valahello.p/meson-generated_Main.c.o -c src/com.github.lesimoes.valahello.p/Main.c",
+    "file": "src/com.github.lesimoes.valahello.p/Main.c",
+    "output": "src/com.github.lesimoes.valahello.p/meson-generated_Main.c.o"
+  },
+  {
+    "directory": "/home/lesimoes/Work/personal/lab/vala/build",
+    "command": "cc -Isrc/com.github.lesimoes.valahello.p -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/com.github.lesimoes.valahello.p/meson-generated_Widgets_Window.c.o -MF src/com.github.lesimoes.valahello.p/meson-generated_Widgets_Window.c.o.d -o src/com.github.lesimoes.valahello.p/meson-generated_Widgets_Window.c.o -c src/com.github.lesimoes.valahello.p/Widgets/Window.c",
+    "file": "src/com.github.lesimoes.valahello.p/Widgets/Window.c",
+    "output": "src/com.github.lesimoes.valahello.p/meson-generated_Widgets_Window.c.o"
+  },
+  {
+    "directory": "/home/lesimoes/Work/personal/lab/vala/build",
+    "command": "cc -Isrc/com.github.lesimoes.valahello.p -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/com.github.lesimoes.valahello.p/meson-generated_Widgets_HeaderBar.c.o -MF src/com.github.lesimoes.valahello.p/meson-generated_Widgets_HeaderBar.c.o.d -o src/com.github.lesimoes.valahello.p/meson-generated_Widgets_HeaderBar.c.o -c src/com.github.lesimoes.valahello.p/Widgets/HeaderBar.c",
+    "file": "src/com.github.lesimoes.valahello.p/Widgets/HeaderBar.c",
+    "output": "src/com.github.lesimoes.valahello.p/meson-generated_Widgets_HeaderBar.c.o"
+  },
+  {
+    "directory": "/home/lesimoes/Work/personal/lab/vala/build",
+    "command": "cc -Isrc/com.github.lesimoes.valahello.p -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/com.github.lesimoes.valahello.p/meson-generated_Application.c.o -MF src/com.github.lesimoes.valahello.p/meson-generated_Application.c.o.d -o src/com.github.lesimoes.valahello.p/meson-generated_Application.c.o -c src/com.github.lesimoes.valahello.p/Application.c",
+    "file": "src/com.github.lesimoes.valahello.p/Application.c",
+    "output": "src/com.github.lesimoes.valahello.p/meson-generated_Application.c.o"
+  }
+]
